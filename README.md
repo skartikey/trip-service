@@ -47,7 +47,7 @@ This command will run all the unit tests in the project and display the results.
 - **Description**: Endpoint that takes a list of trips as JSON, each one associated with a vehicle identifier, and stores these trips in memory.
 - **HTTP Method**: POST
 - **Endpoint**: `/trips`
-- **Payload Structure**: Each trip should follow a specific JSON structure. See [`trip.json`](tests/trip.json) for an example of the payload structure.
+- **Payload Structure**: Each trip should follow a specific JSON structure. See [`trip.json`](testdata/trip.json) for an example of the payload structure.
 
 ### Get Trip Postcodes
 - **Description**: Retrieve the postcode for the first and last coordinates of a trip identified by its unique identifier.
